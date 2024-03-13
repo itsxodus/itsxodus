@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="flex-col bg-gray-100 p-4 border-t border-slate-200">
+        <footer className="flex-col bg-gray-800 p-4 border-t border-slate-200 text-white">
             <div>
                 <Link href="https://github.com/itsxodus/" target="_blank" rel="noopener noreferrer" className="flex pr-5 hover:text-gray-500 w-32">
                     <FaGithub className="m-1 text-xl"/>

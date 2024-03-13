@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <Navbar/>
     <div className="p-4">
-      Blog page content
+      Blog content coming soon...
     </div>
     <Footer/>
     </>

@@ -8,15 +8,13 @@ import clsx from 'clsx';
 
 const links = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Portfolio', href: '/portfolio' },
     { name: 'Blog', href: '/blog' },
 ];
 
 export default function Navbar() {
     const pathname = usePathname();
     return (
-        <div className="bg-gray-100 p-4 border-b border-slate-200">
+        <div className="bg-gray-800 p-4">
             <div className="flex flex-col items-center">
                 <Link href="/">
                     <Image 
@@ -34,9 +32,9 @@ export default function Navbar() {
                     key={link.name} 
                     href={link.href} 
                     className={clsx(
-                        'px-2 py-1 bg-gray-300 rounded hover:bg-gray-500 hover:text-white transition-colors',
+                        'px-2 py-1 bg-gray-400 rounded hover:bg-gray-600 hover:text-white transition-colors',
                         {
-                            'bg-gray-500 text-white': pathname === link.href,
+                            'bg-gray-100 text-white outline hover:outline-offset-1': pathname === link.href,
                         }
                     )}>
                         {link.name}
