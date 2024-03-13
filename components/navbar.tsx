@@ -14,19 +14,19 @@ const links = [
 export default function Navbar() {
     const pathname = usePathname();
     return (
-        <div className="bg-gray-800 p-4">
+        <div className="bg-gray-800 p-4 top-0 w-full border-b border-gray-400">
             <div className="flex flex-col items-center">
                 <Link href="/">
                     <Image 
-                        src={logoSvg} 
-                        alt="XoDus Logo" 
-                        width={128} 
-                        height={128} 
-                        className="transition-transform hover:opacity-75 transform hover:scale-110 duration-150 ease-in-out cursor-pointer"
+                    src={logoSvg} 
+                    alt="XoDus Logo" 
+                    width={128} 
+                    height={128} 
+                    className="transition-transform hover:opacity-75 transform hover:scale-110 duration-250 ease-in-out cursor-pointer"
                     />
                 </Link>
             </div>
-            <div className="flex items-center justify-center space-x-4 mt-4">
+            <div className="flex items-center justify-center space-x-4 mt-4 font-semibold">
                 {links.map((link) => (
                     <Link 
                     key={link.name} 

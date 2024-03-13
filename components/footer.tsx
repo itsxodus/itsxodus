@@ -1,23 +1,48 @@
 import { FaGithub, FaDiscord, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="flex-col bg-gray-800 p-4 border-t border-slate-200 text-white">
+        <footer 
+        className="flex-col bg-gray-800 p-4 text-white bottom-0 w-full border-t border-gray-400">
             <div>
-                <Link href="https://github.com/itsxodus/" target="_blank" rel="noopener noreferrer" className="flex pr-5 hover:text-gray-500 w-32">
-                    <FaGithub className="m-1 text-xl"/>
-                    <p>@itsxodus</p>
+                <Link 
+                href="mailto:matthewlamo02@gmail.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex pr-5 hover:text-green-500 w-72">
+                    <IoMail className="m-1 text-xl"/>
+                    <p>matthewlamo02@gmail.com</p>
                 </Link>
-                <Link href="https://www.linkedin.com/in/matthew-lamour/" target="_blank" rel="noopener noreferrer" className="flex pr-5 hover:text-blue-500 w-48">
+                <Link 
+                href="https://www.linkedin.com/in/matthew-lamour/" 
+                target="_blank" rel="noopener noreferrer" 
+                className="flex pr-5 hover:text-blue-500 w-48">
                     <FaLinkedin className="m-1 text-xl"/>
                     <p>@matthew-lamour</p>
                 </Link>
-                <Link href="https://www.youtube.com/@xodus." target="_blank" rel="noopener noreferrer" className="flex pr-5 hover:text-red-500 w-32">
+                <Link 
+                href="https://github.com/itsxodus/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex pr-5 hover:text-gray-500 w-32">
+                    <FaGithub className="m-1 text-xl"/>
+                    <p>@itsxodus</p>
+                </Link>
+                <Link 
+                href="https://www.youtube.com/@xodus." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex pr-5 hover:text-red-500 w-32">
                     <FaYoutube className="m-1 text-xl"/>
                     <p>@xodus.</p>
                 </Link> 
-                <Link href="https://www.discord.com/users/xodus." target="_blank" rel="noopener noreferrer" className="flex pr-5 hover:text-indigo-500 w-32">
+                <Link 
+                href="https://www.discord.com/users/xodus." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex pr-5 hover:text-indigo-500 w-32">
                     <FaDiscord className="m-1 text-xl"/>
                     <p>@xodus.</p>
                 </Link>
