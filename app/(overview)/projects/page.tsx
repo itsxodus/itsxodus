@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <Navbar/>
     <div className="p-4 m-4 text-4xl text-center text-white">
-      Blog content coming soon...
+      Project portfolio coming soon...
     </div>
     <Footer/>
     </>

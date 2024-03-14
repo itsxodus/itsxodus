@@ -8,13 +8,15 @@ import clsx from 'clsx';
 
 const links = [
     { name: 'Home', href: '/' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'PC', href: '/pc' },
     { name: 'Blog', href: '/blog' },
 ];
 
 export default function Navbar() {
     const pathname = usePathname();
     return (
-        <div className="bg-gray-800 p-4 top-0 w-full border-b border-gray-400">
+        <div className="bg-black p-4 top-0 w-full">
             <div className="flex flex-col items-center">
                 <Link href="/">
                     <Image 

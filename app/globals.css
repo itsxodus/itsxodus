@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(24, 24, 24);
+}
+
+.title-section {
+    @apply flex flex-col mt-8 mb-12 max-w-7xl mx-auto items-center text-white;
 }
