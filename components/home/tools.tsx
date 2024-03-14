@@ -1,5 +1,5 @@
-import { FaFigma, FaGit, FaGithub, FaLinux, FaWindows } from "react-icons/fa";
-import { SiGnubash, SiHeroku, SiOpenai, SiVercel } from "react-icons/si";
+import { FaFigma, FaGitAlt, FaGithub, FaLinux, FaWindows } from "react-icons/fa";
+import { SiGnubash, SiHeroku, SiJetbrains, SiOpenai, SiVercel, SiVisualstudio } from "react-icons/si";
 import { GoCopilot } from "react-icons/go";
 
 export default function Tools() {
@@ -11,9 +11,9 @@ export default function Tools() {
                     Tools
                 </a>
             </div>
-            <div className="flex sm:gap-12 gap-6 py-4 sm:text-5xl text-2xl grid grid-flow-col grid-rows-2">
+            <div className="flex sm:gap-12 gap-2 py-4 px-4 sm:text-5xl text-2xl grid grid-flow-col grid-rows-2">
                 <div>
-                    <FaGit/>
+                    <FaGitAlt/>
                     <p className="text-sm mt-2 text-center">
                         Git
                     </p>
@@ -72,14 +72,29 @@ export default function Tools() {
                         Copilot
                     </p>
                 </div>
+                <div>
+                    <SiVisualstudio/>
+                    <p className="text-sm mt-2 text-center">
+                        Visual Studio
+                    </p>
+                </div>
+                <div>
+                    <SiJetbrains/>
+                    <p className="text-sm mt-2 text-center">
+                        Jetbrains IDEs
+                    </p>
+                </div>
             </div>
             <div className="mx-12">
                 <p className="font-medium leading-loose">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut purus tellus, sodales malesuada imperdiet molestie, elementum et nunc.
-                    Integer non eros sed mi dictum finibus.
-                    Vestibulum eleifend mauris vitae magna aliquet tristique.
-                    Aliquam volutpat orci sapien.
+                    I have experience with many of the oft-used tools that
+                    developers use in their day-to-day work, like the 
+                    quintessential Git and GitHub. I am native to 
+                    Windows, but have experience with many Linux distros
+                    and use of bash. I have used Figma for UI/UX prototyping,
+                    Vercel and Heroku for hosting, and use ChatGPT and Copilot
+                    for the ever-increasing importance that AI assistance has
+                    in development work in Visual Studio and Jetbrains IDEs.
                 </p>
             </div>
         </div>

@@ -10,7 +10,7 @@ export default function FrontEnd() {
                     Frontend
                 </a>
             </div>
-            <div className="flex sm:gap-12 gap-6 py-4 sm:text-5xl text-2xl">
+            <div className="flex sm:gap-12 gap-6 py-4 px-4 sm:text-5xl text-2xl">
                 <div>
                     <SiNextdotjs/>
                     <p className="text-sm mt-2 text-center">
@@ -38,11 +38,11 @@ export default function FrontEnd() {
             </div>
             <div className="mx-12">
                 <p className="font-medium leading-loose">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut purus tellus, sodales malesuada imperdiet molestie, elementum et nunc.
-                    Integer non eros sed mi dictum finibus.
-                    Vestibulum eleifend mauris vitae magna aliquet tristique.
-                    Aliquam volutpat orci sapien.
+                    I have most recently gained experience with frontend
+                    development in Next.js, Tailwind, React, and TypeScript.
+                    I have used these technologies to create frontend systems
+                    for various projects, and am constantly learning more
+                    about these technologies and improving my frontend skills.
                 </p>
             </div>
         </div>

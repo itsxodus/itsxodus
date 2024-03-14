@@ -10,7 +10,7 @@ export default function BackEnd() {
                     Backend
                 </a>
             </div>
-            <div className="flex sm:gap-12 gap-6 py-4 sm:text-5xl text-2xl">
+            <div className="flex sm:gap-12 gap-6 py-4 px-4 sm:text-5xl text-2xl">
                 <div>
                     <FaPython/>
                     <p className="text-sm mt-2 text-center">
@@ -50,11 +50,12 @@ export default function BackEnd() {
             </div>
             <div className="mx-12">
                 <p className="font-medium leading-loose">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut purus tellus, sodales malesuada imperdiet molestie, elementum et nunc.
-                    Integer non eros sed mi dictum finibus.
-                    Vestibulum eleifend mauris vitae magna aliquet tristique.
-                    Aliquam volutpat orci sapien.
+                    The first programming language I started learning (in 2018)
+                    was Python, and I have used it extensively for various 
+                    projects. I have also picked up and used C and C++
+                    extensively, but also C#, and Java for backend development
+                    in university. I have also used MySQL and Postgres for
+                    database management in university and personal projects.
                 </p>
             </div>
         </div>

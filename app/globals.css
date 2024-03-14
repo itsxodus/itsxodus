@@ -7,5 +7,9 @@ body {
 }
 
 .title-section {
-    @apply flex flex-col mt-8 mb-12 max-w-7xl mx-auto items-center text-white;
+    @apply flex flex-col mt-8 mb-12 max-w-7xl mx-auto items-center text-white text-pretty;
+}
+
+.ul-text {
+    @apply font-light underline decoration-emerald-500 decoration-[3px] underline-offset-4 hover:text-emerald-500 duration-200;
 }
